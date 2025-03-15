@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import bookRoutes from "./routes/bookRoutes.js";
+import bookRoutes from "./routes/BookRoutes.jsx";
 dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
